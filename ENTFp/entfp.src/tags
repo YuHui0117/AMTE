@@ -1,0 +1,102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+BP_bool	main.cpp	/^bool BP_bool = false;$/;"	v
+CC	Makefile	/^CC=g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-c -Wall -g$/;"	m
+CountTime	rain_algorithm.h	/^        CountTime(string inf = "counting time"): inf(inf)\/*, start(clock())*\/$/;"	f	class:rain::CountTime
+CountTime	rain_algorithm.h	/^    class CountTime$/;"	c	namespace:rain
+DBG_bool	main.cpp	/^bool DBG_bool = false;$/;"	v
+Dict	rain_algorithm.h	/^    class Dict$/;"	c	namespace:rain
+DictClumn	rain_algorithm.h	/^        typedef             map<Type2, TypeValue>               DictClumn;$/;"	t	class:rain::Dict
+EXECUTABLE	Makefile	/^	EXECUTABLE=score$/;"	m
+Format	rain_algorithm.h	/^        Format(const string& fmt): str(fmt)$/;"	f	class:rain::Format
+Format	rain_algorithm.h	/^    class Format$/;"	c	namespace:rain
+INT64	rain_algorithm.h	54;"	d
+Iterator1	rain_algorithm.h	/^        typedef typename    map<Type1, DictClumn>::iterator     Iterator1;$/;"	t	class:rain::Dict
+Iterator2	rain_algorithm.h	/^        typedef typename    DictClumn::iterator                 Iterator2;$/;"	t	class:rain::Dict
+LDFLAGS	Makefile	/^LDFLAGS=$/;"	m
+Match	entropy.cpp	/^class Match{$/;"	c	file:
+OBJECTS	Makefile	/^OBJECTS=$(SOURCES:.cpp=.o)$/;"	m
+PRINT_INF	rain_algorithm.h	51;"	d
+RAIN_ALGORITHM	rain_algorithm.h	14;"	d
+SOURCES	Makefile	/^SOURCES=main.cpp $/;"	m
+Triple	rain_algorithm.h	/^        Triple(const Type1& first = Type1(), const Type2& second = Type2(), const Type3& third = Type3()):$/;"	f	class:rain::Triple
+Triple	rain_algorithm.h	/^    class Triple$/;"	c	namespace:rain
+UINT64	rain_algorithm.h	55;"	d
+VVec	rain_algorithm.h	52;"	d
+ZERO	rain_algorithm.h	53;"	d
+__STL_USE_STD_ALLOCATOR	rain_algorithm.h	17;"	d
+__USE_MALLOC	rain_algorithm.h	18;"	d
+clear	rain_algorithm.h	/^        void clear()$/;"	f	class:rain::Dict
+count	rain_algorithm.h	/^    inline int count(const string& str, string subs)$/;"	f	namespace:rain
+dict_mps	rain_algorithm.h	/^        map<Type1, DictClumn>  dict_mps;$/;"	m	class:rain::Dict
+endswith	rain_algorithm.h	/^    inline bool endswith(const string& str, string postfix)$/;"	f	namespace:rain
+entropyscore	entropy.cpp	/^float entropyscore(vector<int> & chunks, int lenh, int lenr){$/;"	f
+eq	rain_algorithm.h	/^    inline bool eq(double m, double n, double prec = ZERO)$/;"	f	namespace:rain
+exist	rain_algorithm.h	/^        bool exist(const Type1& w1, const Type2& w2, TypeValue& value)$/;"	f	class:rain::Dict
+finish	rain_algorithm.h	/^        time_t  finish;$/;"	m	class:rain::CountTime
+first	rain_algorithm.h	/^        Type1   first;$/;"	m	class:rain::Triple
+ge	rain_algorithm.h	/^    inline bool ge(double m, double n, double prec = ZERO)$/;"	f	namespace:rain
+get	rain_algorithm.h	/^        TypeValue get(const Type1& w1, const Type2& w2, const TypeValue& df_value)$/;"	f	class:rain::Dict
+getEntScore	entropy.cpp	/^float getEntScore(vector<Match> &vMatchWords, int hypLen, int refLen)$/;"	f
+getFmean	entropy.cpp	/^float getFmean(vector<Match> &vMatchWords, vector<int> &vFunHyp, vector<int> &vFunRef)$/;"	f
+getFunList	entropy.cpp	/^map<string,int> getFunList(string funFile)$/;"	f
+getlength	entropy.cpp	/^int getlength(string line)$/;"	f
+hash	rain_algorithm.h	/^    inline UINT64 hash(const string &s)$/;"	f	namespace:rain
+inf	rain_algorithm.h	/^        string  inf;$/;"	m	class:rain::CountTime
+iterator	rain_algorithm.h	/^        pair<Iterator1, Iterator1> iterator()$/;"	f	class:rain::Dict
+iterator	rain_algorithm.h	/^        pair<Iterator2, Iterator2> iterator(const Type1& w1)$/;"	f	class:rain::Dict
+join	rain_algorithm.h	/^    inline string join(string s, ConstPointer b, ConstPointer e)$/;"	f	namespace:rain
+join	rain_algorithm.h	/^    inline string join(string s, const vector<string>& src_vector)$/;"	f	namespace:rain
+len	entropy.cpp	/^        int len;$/;"	m	class:Match	file:
+lowerStr	rain_algorithm.h	/^	inline int lowerStr(string & str)$/;"	f	namespace:rain
+main	main.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+matchLen	entropy.cpp	/^        int matchLen;$/;"	m	class:Match	file:
+matchStart	entropy.cpp	/^        int matchStart;$/;"	m	class:Match	file:
+match_str	rain_algorithm.h	/^    inline int match_str(const string& str, string le, string ri, string& con, int fpos = 0)$/;"	f	namespace:rain
+matchhyp	entropy.cpp	/^vector<int> matchhyp(vector<Match> vMatchWords)$/;"	f
+metricScore	entropy.cpp	/^void metricScore(string alignFile,string funFile)$/;"	f
+module	entropy.cpp	/^        int module;$/;"	m	class:Match	file:
+operator ()	rain_algorithm.h	/^        Format operator () (const string& sub, const string& nstr) const$/;"	f	class:rain::Format
+operator ()	rain_algorithm.h	/^        Format operator () (const string& sub, double nstr) const$/;"	f	class:rain::Format
+operator ()	rain_algorithm.h	/^        Format operator () (const string& sub, int nstr) const$/;"	f	class:rain::Format
+operator ()	rain_algorithm.h	/^        TypeValue& operator () (const Type1& w1, const Type2& w2)$/;"	f	class:rain::Dict
+operator ()	rain_algorithm.h	/^        string operator () () const$/;"	f	class:rain::Format
+operator +=	rain_algorithm.h	/^    vector<Type>& operator += (vector<Type>& v1, const vector<Type>& v2)        $/;"	f	namespace:rain
+operator -=	rain_algorithm.h	/^    vector<Type>& operator -= (vector<Type>& v1, const vector<Type>& v2)$/;"	f	namespace:rain
+operator <	rain_algorithm.h	/^        bool operator < (const Triple& ot) const$/;"	f	class:rain::Triple
+operator <<	rain_algorithm.h	/^        friend ostream& operator << (ostream &out, const Format& fmt) $/;"	f	class:rain::Format
+partition	rain_algorithm.h	/^    inline Iterator partition(Iterator begin, Iterator end, Iterator pos)$/;"	f	namespace:rain
+prob	entropy.cpp	/^        double prob;$/;"	m	class:Match	file:
+rain	rain_algorithm.h	/^namespace rain$/;"	n
+rand64	rain_algorithm.h	/^    inline UINT64 rand64()$/;"	f	namespace:rain
+rand_range	rain_algorithm.h	/^    inline int rand_range(int begin, int end)$/;"	f	namespace:rain
+rand_range	rain_algorithm.h	/^    inline vector<int> rand_range(int size)$/;"	f	namespace:rain
+read_txt	rain_algorithm.h	/^    inline void read_txt(string file, string& content, int capacity = 1024 * 100)$/;"	f	namespace:rain
+refnum	main.cpp	/^int refnum = 1;$/;"	v
+replace	rain_algorithm.h	/^    inline string replace(const string& s, string sub, string nstr)$/;"	f	namespace:rain
+save_txt	rain_algorithm.h	/^    inline void save_txt(string file, const string& content, bool append = false)$/;"	f	namespace:rain
+second	rain_algorithm.h	/^        Type2   second;$/;"	m	class:rain::Triple
+split	rain_algorithm.h	/^	inline int split(const string& src, vector<string>& vecWord, map<pair<unsigned int, unsigned int>, vector<string> >& mapNESpans)$/;"	f	namespace:rain
+split	rain_algorithm.h	/^	inline int split(const string& src, vector<string>& vecWord, map<string, vector<string> >& mapNETrans)$/;"	f	namespace:rain
+split	rain_algorithm.h	/^    inline vector<string> split(const string& src)$/;"	f	namespace:rain
+split	rain_algorithm.h	/^    inline vector<string> split(const string& src, string delimit)$/;"	f	namespace:rain
+start	entropy.cpp	/^        int start;$/;"	m	class:Match	file:
+start	rain_algorithm.h	/^        time_t  start;$/;"	m	class:rain::CountTime
+startswith	rain_algorithm.h	/^    inline bool startswith(const string &str, string prefix)$/;"	f	namespace:rain
+str	rain_algorithm.h	/^        string  str;$/;"	m	class:rain::Format
+strip	rain_algorithm.h	/^    inline string strip(const string& s, const string chs = " \\t\\n")$/;"	f	namespace:rain
+tagFunction	entropy.cpp	/^vector<int> tagFunction(map<string,int> &mFunList, string line)$/;"	f
+third	rain_algorithm.h	/^        Type3   third;$/;"	m	class:rain::Triple
+to_double	rain_algorithm.h	/^    inline double to_double(const char* s)$/;"	f	namespace:rain
+to_double	rain_algorithm.h	/^    inline double to_double(const string& s)$/;"	f	namespace:rain
+to_int	rain_algorithm.h	/^    inline int	to_int(const char* s)$/;"	f	namespace:rain
+to_int	rain_algorithm.h	/^    inline int	to_int(const string& s)$/;"	f	namespace:rain
+to_string	rain_algorithm.h	/^    inline string to_string(double m)$/;"	f	namespace:rain
+to_string	rain_algorithm.h	/^    inline string to_string(int m)$/;"	f	namespace:rain
+trim	rain_algorithm.h	/^	inline void trim(string& str, string tag = " \\t")$/;"	f	namespace:rain
+~CountTime	rain_algorithm.h	/^        ~CountTime()$/;"	f	class:rain::CountTime

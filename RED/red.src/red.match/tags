@@ -1,0 +1,294 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Align_bool	treenode.h	/^    bool Align_bool ;$/;"	m	class:Config
+BP_bool	treenode.h	/^    bool BP_bool ;$/;"	m	class:Config
+Bleu_bool	treenode.h	/^    bool Bleu_bool ;$/;"	m	class:Config
+CC	Makefile	/^CC=g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-c -Wall -g$/;"	m
+CfgInit	treenode.cpp	/^    void CfgInit(Config &cfg)$/;"	f
+Cnode	contree.h	/^struct Cnode{$/;"	s
+ConTree_bool	treenode.h	/^    bool ConTree_bool ;$/;"	m	class:Config
+Config	treenode.h	/^class Config{$/;"	c
+CountTime	rain_algorithm.h	/^        CountTime(string inf = "counting time"): inf(inf)\/*, start(clock())*\/$/;"	f	class:rain::CountTime
+CountTime	rain_algorithm.h	/^    class CountTime$/;"	c	namespace:rain
+Dep	treenode.h	/^        Dep(string ss,int p):data(ss),parent(p){}; $/;"	f	struct:Tree::Dep
+Dep	treenode.h	/^    struct Dep{$/;"	s	class:Tree
+Dict	rain_algorithm.h	/^    class Dict$/;"	c	namespace:rain
+DictClumn	rain_algorithm.h	/^        typedef             map<Type2, TypeValue>               DictClumn;$/;"	t	class:rain::Dict
+EXECUTABLE	Makefile	/^	EXECUTABLE=score$/;"	m
+Entropy_bool	treenode.h	/^    bool Entropy_bool;$/;"	m	class:Config
+FF_bool	treenode.h	/^    bool FF_bool ;$/;"	m	class:Config
+Fmean_bool	treenode.h	/^    bool Fmean_bool ;$/;"	m	class:Config
+Format	rain_algorithm.h	/^        Format(const string& fmt): str(fmt)$/;"	f	class:rain::Format
+Format	rain_algorithm.h	/^    class Format$/;"	c	namespace:rain
+Function_bool	treenode.h	/^    bool Function_bool ;$/;"	m	class:Config
+HORIZ_bool	treenode.h	/^    bool HORIZ_bool ;$/;"	m	class:Config
+HWC_bool	treenode.h	/^    bool HWC_bool;$/;"	m	class:Config
+INT64	rain_algorithm.h	55;"	d
+Iterator1	rain_algorithm.h	/^        typedef typename    map<Type1, DictClumn>::iterator     Iterator1;$/;"	t	class:rain::Dict
+Iterator2	rain_algorithm.h	/^        typedef typename    DictClumn::iterator                 Iterator2;$/;"	t	class:rain::Dict
+LDFLAGS	Makefile	/^LDFLAGS=$/;"	m
+LOG_bool	treenode.h	/^    bool LOG_bool ;$/;"	m	class:Config
+LengthDist	myalgorithm.h	/^float vectorDist<T>::LengthDist()$/;"	f	class:vectorDist
+Map_bool	treenode.h	/^    bool Map_bool ;$/;"	m	class:Config
+MeAlign	treenode.h	/^    string alignfile, alignfile_p, nbestFile, contreeFile, Nwf, MeAlign, fucfile;$/;"	m	class:Config
+Nw_bool	treenode.h	/^    bool Nw_bool ;$/;"	m	class:Config
+Nwf	treenode.h	/^    string alignfile, alignfile_p, nbestFile, contreeFile, Nwf, MeAlign, fucfile;$/;"	m	class:Config
+OBJECTS	Makefile	/^OBJECTS=$(SOURCES:.cpp=.o)$/;"	m
+PRINT_INF	rain_algorithm.h	52;"	d
+Para_bool	treenode.h	/^    bool Para_bool ;$/;"	m	class:Config
+RAIN_ALGORITHM	rain_algorithm.h	14;"	d
+SOURCES	Makefile	/^SOURCES=main.cpp  myalgorithm.cpp  parsedepfile.cpp  treealgorithm.cpp  treenode.cpp$/;"	m
+Score_Method	main.cpp	/^string Score_Method = "red";$/;"	v
+SubLinkData	treenode.h	/^    SubLinkData():hight(0),count(0),fuctag(0){}$/;"	f	struct:SubLinkData
+SubLinkData	treenode.h	/^    SubLinkData(int a,int b,vector<int>& p):count(b){hight.push_back(a);positions.push_back(p);}$/;"	f	struct:SubLinkData
+SubLinkData	treenode.h	/^struct SubLinkData{$/;"	s
+Train_bool	treenode.h	/^    bool Train_bool ;$/;"	m	class:Config
+Traverse	treenode.cpp	/^void Tree::Traverse( TreeNode * n1)$/;"	f	class:Tree
+Tree	treenode.h	/^    Tree(){m_root = NULL;m_datablock<<"";m_path=NULL;m_vecTree=NULL;}$/;"	f	class:Tree
+Tree	treenode.h	/^    Tree(string s ){ Tree(); m_datablock.clear();m_datablock << s;}$/;"	f	class:Tree
+Tree	treenode.h	/^class Tree{$/;"	c
+TreeNode	treenode.h	/^        TreeNode(){m_data="";m_children = NULL;}$/;"	f	class:TreeNode
+TreeNode	treenode.h	/^class TreeNode{$/;"	c
+Triple	rain_algorithm.h	/^        Triple(const Type1& first = Type1(), const Type2& second = Type2(), const Type3& third = Type3()):$/;"	f	class:rain::Triple
+Triple	rain_algorithm.h	/^    class Triple$/;"	c	namespace:rain
+UINT64	rain_algorithm.h	56;"	d
+Unit	contree.h	/^}Unit;$/;"	t	typeref:struct:__anon1
+VVec	rain_algorithm.h	53;"	d
+ZERO	rain_algorithm.h	54;"	d
+__CONTREE_H_	contree.h	2;"	d
+__ENTROPY_H_	entropy.h	19;"	d
+__MYALGORITHM_H__	myalgorithm.h	20;"	d
+__PARSEDEPFILE_H__	parsedepfile.h	19;"	d
+__STL_USE_STD_ALLOCATOR	rain_algorithm.h	17;"	d
+__TREEALGORITHM_H_	treealgorithm.h	20;"	d
+__TREENODE_H_	treenode.h	19;"	d
+__USE_MALLOC	rain_algorithm.h	18;"	d
+addChild	treenode.h	/^        inline void addChild(TreeNode* tn){ $/;"	f	class:TreeNode
+addInNgram	myalgorithm.cpp	/^void addInNgram(map<string,int> &vec_map,map<string,int> gc)$/;"	f
+alignfile	treenode.h	/^    string alignfile, alignfile_p, nbestFile, contreeFile, Nwf, MeAlign, fucfile;$/;"	m	class:Config
+alignfile_p	treenode.h	/^    string alignfile, alignfile_p, nbestFile, contreeFile, Nwf, MeAlign, fucfile;$/;"	m	class:Config
+buildTree	treenode.cpp	/^void Tree::buildTree(){$/;"	f	class:Tree
+calculate_meteor_score	treealgorithm.cpp	/^pair<float,float> calculate_meteor_score(Config &cfg, int id)$/;"	f
+check	treealgorithm.cpp	/^bool check(vector<vector<int> > &matpara, vector<int> tmp)$/;"	f
+children	contree.h	/^void children(Cnode *root, vector<Cnode *> &vnode)$/;"	f
+chunks_sys	treenode.h	/^    vector<vector<int> > chunks_sys; $/;"	m	class:Config
+clear	rain_algorithm.h	/^        void clear()$/;"	f	class:rain::Dict
+concheck	entropy.h	/^bool concheck(vector<pair<int, int> > vecref, int s, int i)$/;"	f
+contreeExtracNgram	contree.h	/^void contreeExtracNgram(Config &cfg, FILE *ifcontree)$/;"	f
+contreeFile	treenode.h	/^    string alignfile, alignfile_p, nbestFile, contreeFile, Nwf, MeAlign, fucfile;$/;"	m	class:Config
+contreeNgram	treenode.h	/^    vector<vector<string> > contreeNgram; \/\/ngrams extracted in constituent tree$/;"	m	class:Config
+cosDist	myalgorithm.h	/^float vectorDist<T>::cosDist(){$/;"	f	class:vectorDist
+count	rain_algorithm.h	/^    inline int count(const string& str, string subs)$/;"	f	namespace:rain
+count	treenode.h	/^    int count;$/;"	m	struct:SubLinkData
+countall	myalgorithm.cpp	/^size_t countall(map<string,int> & m)$/;"	f
+data	treenode.h	/^        string data;$/;"	m	struct:Tree::Dep
+decompress_path	myalgorithm.cpp	/^vector<vector<int> >  decompress_path(vector<vector<int> >&pos_hyp_conpress)$/;"	f
+dict_mps	rain_algorithm.h	/^        map<Type1, DictClumn>  dict_mps;$/;"	m	class:rain::Dict
+endswith	rain_algorithm.h	/^    inline bool endswith(const string& str, string postfix)$/;"	f	namespace:rain
+entropyscore	entropy.h	/^float entropyscore(vector<int> & chunks, int lenh, int lenr){$/;"	f
+eq	rain_algorithm.h	/^    inline bool eq(double m, double n, double prec = ZERO)$/;"	f	namespace:rain
+euclidDist	myalgorithm.h	/^float vectorDist<T>::euclidDist(Config cfg)$/;"	f	class:vectorDist
+euclidDist_continue	myalgorithm.h	/^float vectorDist<T>::euclidDist_continue()$/;"	f	class:vectorDist
+exist	rain_algorithm.h	/^        bool exist(const Type1& w1, const Type2& w2, TypeValue& value)$/;"	f	class:rain::Dict
+extracNgram	contree.h	/^vector<vector<string> > extracNgram(Cnode *root)$/;"	f
+findalign	treealgorithm.cpp	/^void findalign(vector<map<int,pair<int,int> > > valign, int pos, vector<pair<int,int> > &matalgn)$/;"	f
+findchild	contree.h	/^void findchild(vector<Unit> vline, Cnode* root)$/;"	f
+findstring	treealgorithm.cpp	/^int findstring(string hyp, string refstr)$/;"	f
+finish	rain_algorithm.h	/^        time_t  finish;$/;"	m	class:rain::CountTime
+first	rain_algorithm.h	/^        Type1   first;$/;"	m	class:rain::Triple
+fucfile	treenode.h	/^    string alignfile, alignfile_p, nbestFile, contreeFile, Nwf, MeAlign, fucfile;$/;"	m	class:Config
+fuctag	treenode.h	/^    vector<int> fuctag;$/;"	m	struct:SubLinkData
+func_word	treenode.h	/^    map<string,int> func_word; \/\/keep all the functions words$/;"	m	class:Config
+functionTag	treealgorithm.cpp	/^vector<int> functionTag(map<string, int> functionWords, string sstr)$/;"	f
+function_word	entropy.h	/^int function_word(map<string, int> functionWords, string word)$/;"	f
+ge	rain_algorithm.h	/^    inline bool ge(double m, double n, double prec = ZERO)$/;"	f	namespace:rain
+get	rain_algorithm.h	/^        TypeValue get(const Type1& w1, const Type2& w2, const TypeValue& df_value)$/;"	f	class:rain::Dict
+get1gramFun	treealgorithm.cpp	/^float get1gramFun(Config cfg, vector<pair<int,int> > onegram)$/;"	f
+getAllTreeNodes	treenode.h	/^    vector<TreeNode*> * getAllTreeNodes(){return m_vecTree;}$/;"	f	class:Tree
+getChilden	treenode.h	/^        inline vector<TreeNode*> * getChilden(){return m_children;}$/;"	f	class:TreeNode
+getData	treenode.h	/^        inline string& getData(){return m_data;}$/;"	f	class:TreeNode
+getFmean	treealgorithm.cpp	/^float getFmean(Config cfg, int len_hyp_sent, float sum_ref_i_clip, float c_dep_ngram)$/;"	f
+getFunctionWordCnt	treealgorithm.cpp	/^int getFunctionWordCnt(vector<int> funtag)$/;"	f
+getGramCount	myalgorithm.cpp	/^map<string,int> getGramCount(vector<string> & words, int ngram)$/;"	f
+getLenMultiRef	treealgorithm.cpp	/^int getLenMultiRef(vector<string> vecrefstr, int len_hyp_sent)$/;"	f
+getLinks	treenode.h	/^    inline map<string,int> & getLinks(){return m_links_tmp;}$/;"	f	class:Tree
+getLinksWithDepth	treenode.h	/^    inline map<string,SubLinkData> & getLinksWithDepth(){return m_links_with_depth_tmp;}$/;"	f	class:Tree
+getLinksWithDepth_c	treenode.h	/^    inline map<string,SubLinkData> & getLinksWithDepth_c(){return m_links_with_depth_c_tmp;}$/;"	f	class:Tree
+getLinks_c	treenode.h	/^    inline map<string,int> & getLinks_c(){return m_links_c_tmp;}$/;"	f	class:Tree
+getLinks_i	treealgorithm.cpp	/^map<string,SubLinkData> getLinks_i(map<string,int> functionWords, map<string,SubLinkData> ref_links, int &c_dep_ngram, int link_len_i)$/;"	f
+getMatModule	treealgorithm.cpp	/^void getMatModule(vector<map<int,pair<int,int> > > valign,vector<int> ref_pos_i, vector<int> &hyp_pos, vector<int> &matmodel)$/;"	f
+getMatchGram	myalgorithm.cpp	/^map<string,int> getMatchGram(map<string,int> & ref, map<string,int> & tgt)$/;"	f
+getMatchScore_ff	treealgorithm.cpp	/^void getMatchScore_ff(Config cfg, map<string,SubLinkData> len_i_ref_c, string hyp, float &sum_ref_i_clip, float &sum_ref_i)$/;"	f
+getMatchScore_hwc	treealgorithm.cpp	/^pair<float,float> getMatchScore_hwc(Config cfg, map<string,SubLinkData> len_i_ref)$/;"	f
+getMatchScore_oneLink	treealgorithm.cpp	/^vector<float> getMatchScore_oneLink(Config cfg,string type, vector<int> ref_pos_i, vector<int> hyp_pos, vector<int> vecfuc, vector<int> matmodel)$/;"	f
+getNodePosition	treenode.cpp	/^int Tree::getNodePosition(TreeNode * node)$/;"	f	class:Tree
+getOrder	treealgorithm.cpp	/^int getOrder(vector<int> hyp_pos)$/;"	f
+getParaScore	treealgorithm.cpp	/^vector<int> getParaScore(Config &cfg, int num_ref)$/;"	f
+getPrecision	treealgorithm.cpp	/^float getPrecision(int len_hyp_sent, float sum_ref_i_clip)$/;"	f
+getRedScore	treealgorithm.cpp	/^vector<pair<float,float> > getRedScore(Config &cfg)$/;"	f
+getRedScore_sys	treealgorithm.cpp	/^float getRedScore_sys(Config cfg)$/;"	f
+getRefTrees	treealgorithm.cpp	/^void getRefTrees(Config &cfg,FILE *ifbest,int &itref)$/;"	f
+getRoot	treenode.h	/^    TreeNode* getRoot(){return m_root;}$/;"	f	class:Tree
+getScore_Align	treealgorithm.cpp	/^float getScore_Align(Config cfg, string type, SubLinkData & links, string refstring)$/;"	f
+getScore_No_Align	treealgorithm.cpp	/^float getScore_No_Align(Config cfg, string &hypstring, SubLinkData & links,string refstring)$/;"	f
+getSubLink	treenode.cpp	/^void Tree::getSubLink(Config &cfg, TreeNode * node, int leng, int currentdepth, string metric){$/;"	f	class:Tree
+getSubLinks	treenode.cpp	/^void Tree::getSubLinks(Config &cfg, string metric)$/;"	f	class:Tree
+getTokenNumber	myalgorithm.cpp	/^size_t getTokenNumber(string s)$/;"	f
+getTree	treenode.cpp	/^TreeNode* Tree::getTree(vector<vector<int> > & ll,int root,int nodesize)$/;"	f	class:Tree
+getVector	myalgorithm.cpp	/^vector<string> getVector(string s)$/;"	f
+getchunks	entropy.h	/^vector<int> getchunks(vector<pair<int,int> > vechyp,vector<pair<int,int> > vecref)$/;"	f
+getffScore	treealgorithm.cpp	/^float getffScore(Config cfg, string dep_ngram, SubLinkData links, string hyp)$/;"	f
+getfixed	treenode.cpp	/^void Tree::getfixed( TreeNode * n1)$/;"	f	class:Tree
+getfloating	treenode.cpp	/^void Tree::getfloating( TreeNode * n1)$/;"	f	class:Tree
+getlength	entropy.h	/^int getlength(string line)$/;"	f
+hash	rain_algorithm.h	/^    inline UINT64 hash(const string &s)$/;"	f	namespace:rain
+hight	treenode.h	/^    vector<int> hight;$/;"	m	struct:SubLinkData
+hypOneSent	treenode.h	/^    string hypOneSent;$/;"	m	class:Config
+hyp_file	treenode.h	/^    char* ref_file, *hyp_file;$/;"	m	class:Config
+inf	rain_algorithm.h	/^        string  inf;$/;"	m	class:rain::CountTime
+insert2links	treenode.cpp	/^void Tree::insert2links(vector<int> &pos_reordered,string str_reordered,int hight)$/;"	f	class:Tree
+iterator	rain_algorithm.h	/^        pair<Iterator1, Iterator1> iterator()$/;"	f	class:rain::Dict
+iterator	rain_algorithm.h	/^        pair<Iterator2, Iterator2> iterator(const Type1& w1)$/;"	f	class:rain::Dict
+join	rain_algorithm.h	/^    inline string join(string s, ConstPointer b, ConstPointer e)$/;"	f	namespace:rain
+join	rain_algorithm.h	/^    inline string join(string s, const vector<string>& src_vector)$/;"	f	namespace:rain
+kSubsets	myalgorithm.h	/^std::vector< std::vector<T> > kSubsets(std::vector<T> vec, unsigned k)$/;"	f
+lcnt	contree.h	/^    int lcnt;$/;"	m	struct:__anon1
+leavtag	contree.h	/^         int leavtag;$/;"	m	struct:Cnode
+link_len	treenode.h	/^    int link_len ; \/\/length of maximum links$/;"	m	class:Config
+links_ref	treenode.h	/^    vector<int> links_ref; \/\/number of all links in refs for every ngram$/;"	m	class:Config
+lowerStr	rain_algorithm.h	/^	inline int lowerStr(string & str)$/;"	f	namespace:rain
+ltag	contree.h	/^    int ltag;$/;"	m	struct:__anon1
+m_children	treenode.h	/^        vector<TreeNode *> * m_children;$/;"	m	class:TreeNode
+m_data	treenode.h	/^        string m_data;$/;"	m	class:TreeNode
+m_datablock	treenode.h	/^    stringstream m_datablock;$/;"	m	class:Tree
+m_dep	treenode.h	/^    vector<Dep> m_dep;$/;"	m	class:Tree
+m_filename	treenode.h	/^    string m_filename;$/;"	m	class:Tree
+m_links	treenode.h	/^    map<string,int> m_links,m_links_c; \/\/number of links for hwc and fix-floating$/;"	m	class:Config
+m_links_c	treenode.h	/^    map<string,int> m_links,m_links_c; \/\/number of links for hwc and fix-floating$/;"	m	class:Config
+m_links_c_tmp	treenode.h	/^    map<string,int> m_links_c_tmp; \/\/ the dep-gram for one reference.$/;"	m	class:Tree
+m_links_tmp	treenode.h	/^    map<string,int> m_links_tmp;\/\/for one reference$/;"	m	class:Tree
+m_links_with_depth	treenode.h	/^    map<string,SubLinkData> m_links_with_depth,m_links_with_depth_c; \/\/links of hwc and fix-floating$/;"	m	class:Config
+m_links_with_depth_c	treenode.h	/^    map<string,SubLinkData> m_links_with_depth,m_links_with_depth_c; \/\/links of hwc and fix-floating$/;"	m	class:Config
+m_links_with_depth_c_tmp	treenode.h	/^    map<string,SubLinkData> m_links_with_depth_c_tmp;\/\/存放连续的gram（floating and fixed）  for one reference.$/;"	m	class:Tree
+m_links_with_depth_tmp	treenode.h	/^    map<string,SubLinkData> m_links_with_depth_tmp;$/;"	m	class:Tree
+m_path	treenode.h	/^    TreeNode* *m_path;$/;"	m	class:Tree
+m_root	treenode.h	/^    TreeNode * m_root;$/;"	m	class:Tree
+m_vec1	myalgorithm.h	/^    vector<T> m_vec1,m_vec2, m_vec3, m_vec4;$/;"	m	class:vectorDist
+m_vec2	myalgorithm.h	/^    vector<T> m_vec1,m_vec2, m_vec3, m_vec4;$/;"	m	class:vectorDist
+m_vec3	myalgorithm.h	/^    vector<T> m_vec1,m_vec2, m_vec3, m_vec4;$/;"	m	class:vectorDist
+m_vec4	myalgorithm.h	/^    vector<T> m_vec1,m_vec2, m_vec3, m_vec4;$/;"	m	class:vectorDist
+m_vecTree	treenode.h	/^    vector<TreeNode *> *m_vecTree;$/;"	m	class:Tree
+main	main.cpp	/^int main(int argc, char* argv[]) $/;"	f
+match_str	rain_algorithm.h	/^    inline int match_str(const string& str, string le, string ri, string& con, int fpos = 0)$/;"	f	namespace:rain
+matchhyp	entropy.h	/^vector<int> matchhyp(map<string, int> functionWords, string line, string hyp, string ref, vector<pair<int,int> > &onegram_hyp, vector<pair<int,int> > & onegram_ref, vector<int> & chunks_bak)$/;"	f
+meteor_BP	entropy.h	/^float meteor_BP(vector<int> & chunks, int lenh, int lenr)$/;"	f
+myVector	treenode.h	/^class myVector:public vector<T>$/;"	c
+myclear	treenode.cpp	/^    void myclear(Config &cfg)$/;"	f
+mygetline	treenode.cpp	/^string mygetline(FILE *ifRead)$/;"	f
+nbestFile	treenode.h	/^    string alignfile, alignfile_p, nbestFile, contreeFile, Nwf, MeAlign, fucfile;$/;"	m	class:Config
+nbest_bool	treenode.h	/^    bool nbest_bool;$/;"	m	class:Config
+node2string	contree.h	/^void node2string(Cnode *node,vector<string> &str)$/;"	f
+numberTopologyMatch_relative_one	treealgorithm.cpp	/^float numberTopologyMatch_relative_one(Config cfg, string &hypstring, vector<int> & ref_pos_one,string refstring,vector<int> vecfuc)$/;"	f
+numcount	treenode.h	/^    int numcount; \/\/number of all sentences$/;"	m	class:Config
+openfile	treenode.cpp	/^void openfile(string filename, FILE *ifRead)$/;"	f
+operator ()	rain_algorithm.h	/^        Format operator () (const string& sub, const string& nstr) const$/;"	f	class:rain::Format
+operator ()	rain_algorithm.h	/^        Format operator () (const string& sub, double nstr) const$/;"	f	class:rain::Format
+operator ()	rain_algorithm.h	/^        Format operator () (const string& sub, int nstr) const$/;"	f	class:rain::Format
+operator ()	rain_algorithm.h	/^        TypeValue& operator () (const Type1& w1, const Type2& w2)$/;"	f	class:rain::Dict
+operator ()	rain_algorithm.h	/^        string operator () () const$/;"	f	class:rain::Format
+operator +=	rain_algorithm.h	/^    vector<Type>& operator += (vector<Type>& v1, const vector<Type>& v2)        $/;"	f	namespace:rain
+operator -=	rain_algorithm.h	/^    vector<Type>& operator -= (vector<Type>& v1, const vector<Type>& v2)$/;"	f	namespace:rain
+operator <	rain_algorithm.h	/^        bool operator < (const Triple& ot) const$/;"	f	class:rain::Triple
+operator <<	rain_algorithm.h	/^        friend ostream& operator << (ostream &out, const Format& fmt) $/;"	f	class:rain::Format
+operator []	treenode.h	/^        inline T & operator [](size_t indx)$/;"	f	class:myVector
+outputchild	treenode.cpp	/^void Tree::outputchild(TreeNode * node, map<int,wordpos>& mstu)$/;"	f	class:Tree
+p	treenode.h	/^    int p;$/;"	m	struct:__anon2
+parent	treenode.h	/^        int parent;$/;"	m	struct:Tree::Dep
+parseArgs	treenode.cpp	/^    int parseArgs(int argc,char* argv[], Config &cfg)$/;"	f
+parseDepfile	parsedepfile.cpp	/^vector<string> parseDepfile(string filename)$/;"	f
+parseedstringRef	treenode.h	/^    vector<string> parseedstringRef;$/;"	m	class:Config
+partition	rain_algorithm.h	/^    inline Iterator partition(Iterator begin, Iterator end, Iterator pos)$/;"	f	namespace:rain
+pos	contree.h	/^         string pos;$/;"	m	struct:Cnode
+pos	contree.h	/^    string pos;$/;"	m	struct:__anon1
+positions	treenode.h	/^    vector<vector<int> > positions;$/;"	m	struct:SubLinkData
+print1gram	treealgorithm.cpp	/^void print1gram(vector<int> chunks, vector<int> chunks_bak, int hypfunnum, int hyplen, int reffunnum, int reflen, vector<pair<int,int> > onegram_hyp, vector<pair<int,int> > onegram_ref)$/;"	f
+printLinks	treealgorithm.cpp	/^void printLinks(Config cfg)$/;"	f
+printMatchWordPosition	treealgorithm.cpp	/^void printMatchWordPosition(vector<int> ref_pos_i, vector<int> hyp_pos,int i)$/;"	f
+printParaphrase	treealgorithm.cpp	/^void printParaphrase(Config cfg)$/;"	f
+printTree	treenode.h	/^    inline void printTree(bool print_bool ){ if(!print_bool) return;$/;"	f	class:Tree
+print_dep_bool	treenode.h	/^    bool print_dep_bool;$/;"	m	class:Config
+print_link_bool	treenode.h	/^    bool print_link_bool;$/;"	m	class:Config
+printiteratively	treenode.cpp	/^void Tree::printiteratively(TreeNode * root,string prefix, bool istail){$/;"	f	class:Tree
+printstr	contree.h	/^string printstr(vector<string> vec)$/;"	f
+printtree	contree.h	/^void printtree(Cnode *root, string prefix, bool istail)$/;"	f
+rain	rain_algorithm.h	/^namespace rain$/;"	n
+rand64	rain_algorithm.h	/^    inline UINT64 rand64()$/;"	f	namespace:rain
+rand_range	rain_algorithm.h	/^    inline int rand_range(int begin, int end)$/;"	f	namespace:rain
+rand_range	rain_algorithm.h	/^    inline vector<int> rand_range(int size)$/;"	f	namespace:rain
+range	myalgorithm.h	/^std::vector<T> range(T curr, T const &up)$/;"	f
+rcnt	contree.h	/^    int rcnt;$/;"	m	struct:__anon1
+readAlign	treenode.cpp	/^void readAlign(Config &cfg, FILE *ifalign)$/;"	f
+readAlignEssp	treenode.cpp	/^void readAlignEssp(Config &cfg,FILE *ifalign_essp)$/;"	f
+readFile	treenode.cpp	/^void readFile(FILE *ifRead, map<string,int> &words)$/;"	f
+readParaphrase	treenode.cpp	/^void readParaphrase(Config &cfg, FILE *ifalign_p)$/;"	f
+read_txt	rain_algorithm.h	/^    inline void read_txt(string file, string& content, int capacity = 1024 * 100)$/;"	f	namespace:rain
+ref_file	treenode.h	/^    char* ref_file, *hyp_file;$/;"	m	class:Config
+refnum	treenode.h	/^    int refnum ;$/;"	m	class:Config
+removeSameLink	treealgorithm.cpp	/^void removeSameLink(Config &cfg)$/;"	f
+reorder_withrightpostion	treenode.cpp	/^void Tree::reorder_withrightpostion(map<int,string> & path_wordposition_in_sent,vector<int> &pos, string & tmp) $/;"	f	class:Tree
+replace	rain_algorithm.h	/^    inline string replace(const string& s, string sub, string nstr)$/;"	f	namespace:rain
+rtag	contree.h	/^    int rtag;$/;"	m	struct:__anon1
+save_txt	rain_algorithm.h	/^    inline void save_txt(string file, const string& content, bool append = false)$/;"	f	namespace:rain
+scoreAllSents	treenode.h	/^    float scoreAllSents; \/\/score of sum for every sentence score$/;"	m	class:Config
+second	rain_algorithm.h	/^        Type2   second;$/;"	m	class:rain::Triple
+setData	treenode.h	/^        inline void setData(string s){m_data = s;}$/;"	f	class:TreeNode
+setFilename	treenode.h	/^    inline void setFilename(string s){m_filename = s;}$/;"	f	class:Tree
+split	rain_algorithm.h	/^	inline int split(const string& src, vector<string>& vecWord, map<pair<unsigned int, unsigned int>, vector<string> >& mapNESpans)$/;"	f	namespace:rain
+split	rain_algorithm.h	/^	inline int split(const string& src, vector<string>& vecWord, map<string, vector<string> >& mapNETrans)$/;"	f	namespace:rain
+split	rain_algorithm.h	/^    inline vector<string> split(const string& src)$/;"	f	namespace:rain
+split	rain_algorithm.h	/^    inline vector<string> split(const string& src, string delimit)$/;"	f	namespace:rain
+start	rain_algorithm.h	/^        time_t  start;$/;"	m	class:rain::CountTime
+startswith	rain_algorithm.h	/^    inline bool startswith(const string &str, string prefix)$/;"	f	namespace:rain
+str	rain_algorithm.h	/^        string  str;$/;"	m	class:rain::Format
+strip	rain_algorithm.h	/^    inline string strip(const string& s, const string chs = " \\t\\n")$/;"	f	namespace:rain
+third	rain_algorithm.h	/^        Type3   third;$/;"	m	class:rain::Triple
+to_double	rain_algorithm.h	/^    inline double to_double(const char* s)$/;"	f	namespace:rain
+to_double	rain_algorithm.h	/^    inline double to_double(const string& s)$/;"	f	namespace:rain
+to_int	rain_algorithm.h	/^    inline int	to_int(const char* s)$/;"	f	namespace:rain
+to_int	rain_algorithm.h	/^    inline int	to_int(const string& s)$/;"	f	namespace:rain
+to_string	rain_algorithm.h	/^    inline string to_string(double m)$/;"	f	namespace:rain
+to_string	rain_algorithm.h	/^    inline string to_string(int m)$/;"	f	namespace:rain
+tosubLink	treenode.cpp	/^void Tree::tosubLink(vector<map<int, wordpos> > &vec)$/;"	f	class:Tree
+tosubLink_all	treenode.cpp	/^void tosubLink_all(int refnum,map<string,SubLinkData>& m_links_with_depth_c, map<string,int>& m_links_c,  map<string,SubLinkData>& m_links_with_depth_c_tmp,map<string,int>& m_links_c_tmp)$/;"	f
+tovec	contree.h	/^vector<Unit> tovec(string line)$/;"	f
+tree2string	treenode.cpp	/^string Tree::tree2string(){$/;"	f	class:Tree
+trim	rain_algorithm.h	/^	inline void trim(string& str, string tag = " \\t")$/;"	f	namespace:rain
+valigEssp	treenode.h	/^    vector<string> valigEssp; \/\/alignment using meteor  $/;"	m	class:Config
+vch	contree.h	/^         vector<struct Cnode *> vch;$/;"	m	struct:Cnode
+vec2string	treealgorithm.cpp	/^string vec2string(vector<string> vec,string contag)$/;"	f
+vec_igram_c	treenode.h	/^    vector<int> vec_igram_c; \/\/number of all links in refs for every ngram$/;"	m	class:Config
+vec_sys_t2s_match	treenode.h	/^    vector<float> vec_sys_t2s_match;\/\/number of links matched with hyp for every ngram$/;"	m	class:Config
+vec_sys_t2s_tgt	treenode.h	/^    vector<float> vec_sys_t2s_tgt; \/\/number of links in hyps for every ngram$/;"	m	class:Config
+vecfixed	treenode.h	/^    vector<map<int,wordpos> > vecfixed;$/;"	m	class:Tree
+vecfloating	treenode.h	/^    vector<map<int,wordpos> > vecfloating;$/;"	m	class:Tree
+vecrefstr	treenode.h	/^    vector<string> vecrefstr; \/\/ reference string $/;"	m	class:Config
+vectorDist	myalgorithm.h	/^    vectorDist(vector<T> & v1, vector<T> &v2):m_vec1(v1),m_vec2(v2){}$/;"	f	class:vectorDist
+vectorDist	myalgorithm.h	/^    vectorDist(vector<T> & v1, vector<T> &v2, vector<T> & v3, vector<T> & v4):m_vec1(v1),m_vec2(v2),m_vec3(v3), m_vec4(v4){}$/;"	f	class:vectorDist
+vectorDist	myalgorithm.h	/^class vectorDist$/;"	c
+vmalgn	treenode.h	/^    vector<map<int,pair<int,int> > >  vmalgn; \/\/ alignment results with match module exact-stem-synonym. format:<refPos,<hypPos,matchmodul> > $/;"	m	class:Config
+vparaphrase	treenode.h	/^    vector<vector<pair<vector<int>,vector<int> > > > vparaphrase;\/\/paraphrase extracted from meteor alignment (ref-num-hyp-num)$/;"	m	class:Config
+w	treenode.h	/^    string w;$/;"	m	struct:__anon2
+wEnt	treenode.h	/^    vector<float> wEnt; \/\/parameters for entropy$/;"	m	class:Config
+wMatchModule	treenode.h	/^    vector<float> wMatchModule;\/\/ parameters for match modules: exact  stem synonym paraphrase$/;"	m	class:Config
+wNgrams	treenode.h	/^    vector<float> wNgrams; \/\/parameters for 1gram, 2gram, ...$/;"	m	class:Config
+wfmean	treenode.h	/^    float wfmean; \/\/parameter for fmean$/;"	m	class:Config
+wfun	treenode.h	/^    float wfun;  \/\/parameter for function word$/;"	m	class:Config
+wordpos	treenode.h	/^}wordpos;$/;"	t	typeref:struct:__anon2
+~CountTime	rain_algorithm.h	/^        ~CountTime()$/;"	f	class:rain::CountTime
+~Tree	treenode.h	/^    virtual ~Tree(){$/;"	f	class:Tree
+~TreeNode	treenode.h	/^        ~TreeNode(){$/;"	f	class:TreeNode

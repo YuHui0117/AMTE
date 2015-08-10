@@ -1,0 +1,86 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+CDecoder	include/Decoder.h	/^	CDecoder(){}$/;"	f	class:CDecoder
+CDecoder	include/Decoder.h	/^class CDecoder$/;"	c
+CDepNode	include/Decoder.h	/^class CDepNode$/;"	c
+CDepPair	include/Decoder.h	/^	CDepPair(const int &h, const int &m)$/;"	f	class:CDepPair
+CDepPair	include/Decoder.h	/^class CDepPair$/;"	c
+CNode	include/Decoder.h	/^	CNode(const int &idVal)$/;"	f	class:CNode
+CNode	include/Decoder.h	/^class CNode$/;"	c
+CState	include/Decoder.h	/^class CState$/;"	c
+CToken	include/Decoder.h	/^	CToken(const string &w, const string &p)$/;"	f	class:CToken
+CToken	include/Decoder.h	/^class CToken$/;"	c
+CXX	Makefile	/^CXX		 = g++$/;"	m
+CXX	src/Makefile	/^CXX  	    = $(CXX)$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -I..\/include -Wno-deprecated -Wno-unused -O2$/;"	m
+CXXFLAGS	src/Makefile	/^CXXFLAGS    = $(CXXFLAGS)$/;"	m
+DECODER_H	include/Decoder.h	2;"	d
+DIRS	Makefile	/^DIRS	 = src$/;"	m
+Decode	src/Decoder.cpp	/^void CDecoder::Decode( maxent & me,$/;"	f	class:CDecoder
+GenFeats	src/Decoder.cpp	/^void CDecoder::GenFeats(const CState &from, vector<string> &feats)$/;"	f	class:CDecoder
+GenTree	src/Decoder.cpp	/^string CDecoder::GenTree(const vector<CDepNode> &nodes, const int &root)$/;"	f	class:CDecoder
+GetOps	src/Decoder.cpp	/^void CDecoder::GetOps(const CState &from, vector<string> &ops)$/;"	f	class:CDecoder
+GetResult	src/Decoder.cpp	/^void CDecoder::GetResult(const CState &state, string &result)$/;"	f	class:CDecoder
+GetScores	src/Decoder.cpp	/^void CDecoder::GetScores(const CState &from, $/;"	f	class:CDecoder
+InitState	src/Decoder.cpp	/^void CDecoder::InitState(CState &state)$/;"	f	class:CDecoder
+LIBDIR	Makefile	/^LIBDIR   = ..\/lib$/;"	m
+LIBDIR	src/Makefile	/^LIBDIR      = $(LIBDIR)$/;"	m
+LIBFLAGS	Makefile	/^LIBFLAGS = -lz$/;"	m
+LIBFLAGS	src/Makefile	/^LIBFLAGS    = $(LIBFLAGS)$/;"	m
+LINKFLAGS	Makefile	/^LINKFLAGS= -Wall -lpthread -O2$/;"	m
+LINKFLAGS	src/Makefile	/^LINKFLAGS   = $(LINKFLAGS)$/;"	m
+MAKEFLAG	Makefile	/^MAKEFLAG = CXX="$(CXX)" CXXFLAGS="$(CXXFLAGS)" LINKFLAGS="$(LINKFLAGS)" LIBFLAGS="$(LIBFLAGS)" LIBDIR="$(LIBDIR)"$/;"	m
+ME_PARSER_H_	include/me_parser.h	2;"	d
+OBJ	src/Makefile	/^OBJ         = Main.o    maxent.o    Decoder.o   $/;"	m
+POS	include/Decoder.h	/^	string POS;$/;"	m	class:CToken
+PROGRAM	src/Makefile	/^PROGRAM     = shift_reduce.score$/;"	m
+SRC	src/Makefile	/^SRC         = Main.cpp  maxent.cpp  Decoder.cpp  $/;"	m
+Search	src/Decoder.cpp	/^void CDecoder::Search(string &result, float &maxscore)$/;"	f	class:CDecoder
+SplitTokSeq	src/Decoder.cpp	/^void CDecoder::SplitTokSeq(const string &tokSeq, int &len)$/;"	f	class:CDecoder
+Splitline	src/Decoder.cpp	/^int CDecoder::Splitline(const string &line)$/;"	f	class:CDecoder
+Transition	src/Decoder.cpp	/^void CDecoder::Transition(const CState &from,$/;"	f	class:CDecoder
+_MAXENT_H_	include/maxent.h	2;"	d
+curPtr	include/Decoder.h	/^	int curPtr;$/;"	m	class:CState
+edges	include/Decoder.h	/^	vector<CDepPair> edges;$/;"	m	class:CState
+eval	src/Decoder.cpp	/^double CDecoder::eval( vector<map<string,double> > & v_cls_val, const string & op)$/;"	f	class:CDecoder
+gen_feat	include/me_parser.h	/^	void gen_feat(vector<string> & feat, const string & op){feat.insert(feat.begin(),op);}$/;"	f	class:me_parser
+get_cls_val	src/Decoder.cpp	/^void CDecoder::get_cls_val( vector<string> & feat, vector<map<string,double> > & v_cls_val )$/;"	f	class:CDecoder
+head	include/Decoder.h	/^	int head;$/;"	m	class:CDepPair
+hisOps	include/Decoder.h	/^	vector<string> hisOps;$/;"	m	class:CState
+id	include/Decoder.h	/^	int id;$/;"	m	class:CNode
+leftMods	include/Decoder.h	/^	vector<int> leftMods;$/;"	m	class:CDepNode
+leftMost	include/Decoder.h	/^	int leftMost;$/;"	m	class:CNode
+load_maxent_model	src/maxent.cpp	/^void maxent::load_maxent_model(char* me_file)$/;"	f	class:maxent
+m_model	include/maxent.h	/^	map<string,map<string,double> > m_model;	\/\/(feat,cls,val)$/;"	m	class:maxent
+m_nBeam	include/Decoder.h	/^	int m_nBeam;$/;"	m	class:CDecoder
+m_pModel	include/Decoder.h	/^	maxent *m_pModel;$/;"	m	class:CDecoder
+m_vState	include/Decoder.h	/^	vector<CState> m_vState;$/;"	m	class:CDecoder
+m_vToken	include/Decoder.h	/^	vector<CToken> m_vToken;$/;"	m	class:CDecoder
+main	src/Main.cpp	/^int main(int argc, char *argv[])$/;"	f
+maxent	include/maxent.h	/^	maxent(){}$/;"	f	class:maxent
+maxent	include/maxent.h	/^class maxent$/;"	c
+me_parser	include/me_parser.h	/^	me_parser(){}$/;"	f	class:me_parser
+me_parser	include/me_parser.h	/^class me_parser$/;"	c
+modifier	include/Decoder.h	/^	int modifier;$/;"	m	class:CDepPair
+normalize	src/Decoder.cpp	/^void CDecoder::normalize( vector<double> & v_score )$/;"	f	class:CDecoder
+operator <	include/Decoder.h	/^	bool operator < (const CState &s2) const$/;"	f	class:CState
+operator =	include/Decoder.h	/^	CNode &operator = (const CNode &f)$/;"	f	class:CNode
+operator =	include/Decoder.h	/^	CState &operator = (const CState &f)$/;"	f	class:CState
+print	src/maxent.cpp	/^void maxent::print(ostream & out)$/;"	f	class:maxent
+prob	src/maxent.cpp	/^double maxent::prob( const string &feat, const string & cls )$/;"	f	class:maxent
+prob	src/maxent.cpp	/^map<string,double> maxent::prob( const string & feat )$/;"	f	class:maxent
+refnum	src/Main.cpp	/^int refnum=4;$/;"	v
+rightMods	include/Decoder.h	/^	vector<int> rightMods;$/;"	m	class:CDepNode
+rightMost	include/Decoder.h	/^	int rightMost;$/;"	m	class:CNode
+score	include/Decoder.h	/^	double score;$/;"	m	class:CState
+stack	include/Decoder.h	/^	vector<CNode> stack;$/;"	m	class:CState
+v_cls	include/maxent.h	/^	vector<string> v_cls;$/;"	m	class:maxent
+v_feat	include/maxent.h	/^	vector<string> v_feat;$/;"	m	class:maxent
+word	include/Decoder.h	/^	string word;$/;"	m	class:CToken
+~CDecoder	include/Decoder.h	/^	~CDecoder(){}$/;"	f	class:CDecoder
+~maxent	include/maxent.h	/^	~maxent(){}$/;"	f	class:maxent
+~me_parser	include/me_parser.h	/^	~me_parser(){}$/;"	f	class:me_parser

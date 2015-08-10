@@ -1,0 +1,181 @@
+make: Warning: File `main.cpp' has modification time 8.3e+02 s in the future
+g++ -c -Wall -g main.cpp -o main.o
+In file included from contree.h:12,
+                 from main.cpp:18:
+treenode.h: In constructor ‘SubLinkData::SubLinkData()’:
+treenode.h:41: warning: ‘SubLinkData::count’ will be initialized after
+treenode.h:40: warning:   ‘std::vector<int, std::allocator<int> > SubLinkData::fuctag’
+treenode.h:44: warning:   when initialized here
+In file included from main.cpp:18:
+contree.h: In function ‘void findchild(std::vector<Unit, std::allocator<Unit> >, Cnode*)’:
+contree.h:77: warning: comparison between signed and unsigned integer expressions
+contree.h:99: warning: comparison between signed and unsigned integer expressions
+contree.h: In function ‘void printtree(Cnode*, std::string, bool)’:
+contree.h:120: warning: comparison between signed and unsigned integer expressions
+contree.h: In function ‘void children(Cnode*, std::vector<Cnode*, std::allocator<Cnode*> >&)’:
+contree.h:131: warning: comparison between signed and unsigned integer expressions
+contree.h: In function ‘void node2string(Cnode*, std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)’:
+contree.h:146: warning: comparison between signed and unsigned integer expressions
+contree.h: In function ‘std::string printstr(std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >)’:
+contree.h:156: warning: comparison between signed and unsigned integer expressions
+contree.h: In function ‘std::vector<std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::allocator<std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > > extracNgram(Cnode*)’:
+contree.h:168: warning: comparison between signed and unsigned integer expressions
+main.cpp: In function ‘int main(int, char**)’:
+main.cpp:67: warning: comparison between signed and unsigned integer expressions
+main.cpp:52: warning: ‘ifcontree’ may be used uninitialized in this function
+main.cpp:53: warning: ‘ifbest’ may be used uninitialized in this function
+main.cpp:54: warning: ‘ifalign’ may be used uninitialized in this function
+main.cpp:55: warning: ‘ifalign_p’ may be used uninitialized in this function
+main.cpp:56: warning: ‘ifalign_mt’ may be used uninitialized in this function
+main.cpp:57: warning: ‘ifs’ may be used uninitialized in this function
+g++ -c -Wall -g myalgorithm.cpp -o myalgorithm.o
+In file included from myalgorithm.h:18,
+                 from myalgorithm.cpp:19:
+treenode.h: In constructor ‘SubLinkData::SubLinkData()’:
+treenode.h:41: warning: ‘SubLinkData::count’ will be initialized after
+treenode.h:40: warning:   ‘std::vector<int, std::allocator<int> > SubLinkData::fuctag’
+treenode.h:44: warning:   when initialized here
+myalgorithm.cpp: In function ‘std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > decompress_path(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >&)’:
+myalgorithm.cpp:132: warning: comparison between signed and unsigned integer expressions
+myalgorithm.cpp:135: warning: comparison between signed and unsigned integer expressions
+g++ -c -Wall -g parsedepfile.cpp -o parsedepfile.o
+g++ -c -Wall -g treealgorithm.cpp -o treealgorithm.o
+In file included from /usr/lib/gcc/x86_64-redhat-linux/4.4.4/../../../../include/c++/4.4.4/backward/strstream:47,
+                 from entropy.h:26,
+                 from treealgorithm.cpp:26:
+/usr/lib/gcc/x86_64-redhat-linux/4.4.4/../../../../include/c++/4.4.4/backward/backward_warning.h:28:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated.
+In file included from myalgorithm.h:18,
+                 from treealgorithm.h:26,
+                 from treealgorithm.cpp:23:
+treenode.h: In constructor ‘SubLinkData::SubLinkData()’:
+treenode.h:41: warning: ‘SubLinkData::count’ will be initialized after
+treenode.h:40: warning:   ‘std::vector<int, std::allocator<int> > SubLinkData::fuctag’
+treenode.h:44: warning:   when initialized here
+In file included from treealgorithm.cpp:26:
+entropy.h: In function ‘bool concheck(std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >, int, int)’:
+entropy.h:49: warning: comparison between signed and unsigned integer expressions
+entropy.h:53: warning: comparison between signed and unsigned integer expressions
+entropy.h: In function ‘std::vector<int, std::allocator<int> > getchunks(std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >, std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >)’:
+entropy.h:69: warning: comparison between signed and unsigned integer expressions
+entropy.h:70: warning: comparison between signed and unsigned integer expressions
+entropy.h:118: warning: comparison between signed and unsigned integer expressions
+entropy.h:64: warning: unused variable ‘t’
+entropy.h:65: warning: unused variable ‘tagg’
+In file included from treealgorithm.cpp:26:
+entropy.h: In function ‘float meteor_BP(std::vector<int, std::allocator<int> >&, int, int)’:
+entropy.h:169: warning: no return statement in function returning non-void
+entropy.h: In function ‘float entropyscore(std::vector<int, std::allocator<int> >&, int, int)’:
+entropy.h:176: warning: comparison between signed and unsigned integer expressions
+entropy.h:181: warning: comparison between signed and unsigned integer expressions
+entropy.h:188: warning: unused variable ‘lp’
+entropy.h:171: warning: unused variable ‘i’
+treealgorithm.cpp: In function ‘float numberTopologyMatch_relative_one(Config, std::string&, std::vector<int, std::allocator<int> >&, std::string, std::vector<int, std::allocator<int> >)’:
+treealgorithm.cpp:117: warning: unused variable ‘dist’
+treealgorithm.cpp:119: warning: unused variable ‘minsize’
+treealgorithm.cpp: In function ‘void findalign(std::vector<std::map<int, std::pair<int, int>, std::less<int>, std::allocator<std::pair<const int, std::pair<int, int> > > >, std::allocator<std::map<int, std::pair<int, int>, std::less<int>, std::allocator<std::pair<const int, std::pair<int, int> > > > > >, int, std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >&)’:
+treealgorithm.cpp:136: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘int getOrder(std::vector<int, std::allocator<int> >)’:
+treealgorithm.cpp:150: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘void getMatModule(std::vector<std::map<int, std::pair<int, int>, std::less<int>, std::allocator<std::pair<const int, std::pair<int, int> > > >, std::allocator<std::map<int, std::pair<int, int>, std::less<int>, std::allocator<std::pair<const int, std::pair<int, int> > > > > >, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >&, std::vector<int, std::allocator<int> >&)’:
+treealgorithm.cpp:162: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘void printMatchWordPosition(std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >, int)’:
+treealgorithm.cpp:178: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:181: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘float getScore_Align(Config, std::string, SubLinkData&, std::string)’:
+treealgorithm.cpp:226: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:236: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘float getRedScore_sys(Config)’:
+treealgorithm.cpp:276: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:279: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘bool check(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >&, std::vector<int, std::allocator<int> >)’:
+treealgorithm.cpp:304: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘int findstring(std::string, std::string)’:
+treealgorithm.cpp:314: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘std::string vec2string(std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::string)’:
+treealgorithm.cpp:327: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘std::vector<int, std::allocator<int> > functionTag(std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, int> > >, std::string)’:
+treealgorithm.cpp:339: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘int getFunctionWordCnt(std::vector<int, std::allocator<int> >)’:
+treealgorithm.cpp:358: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘void print1gram(std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> >, int, int, int, int, std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >, std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >)’:
+treealgorithm.cpp:370: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:372: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:375: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:383: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:386: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:369: warning: unused variable ‘entscore’
+treealgorithm.cpp: In function ‘float get1gramFun(Config, std::vector<std::pair<int, int>, std::allocator<std::pair<int, int> > >)’:
+treealgorithm.cpp:393: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘std::pair<float, float> calculate_meteor_score(Config&, int)’:
+treealgorithm.cpp:422: warning: unused variable ‘hypConnum’
+treealgorithm.cpp:424: warning: unused variable ‘refConnum’
+treealgorithm.cpp: In function ‘std::vector<int, std::allocator<int> > getParaScore(Config&, int)’:
+treealgorithm.cpp:444: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:445: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘void printParaphrase(Config)’:
+treealgorithm.cpp:509: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:511: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:515: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘int getLenMultiRef(std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, int)’:
+treealgorithm.cpp:526: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, SubLinkData, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, SubLinkData> > > getLinks_i(std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, int> > >, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, SubLinkData, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, SubLinkData> > >, int&, int)’:
+treealgorithm.cpp:539: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘float getffScore(Config, std::string, SubLinkData, std::string)’:
+treealgorithm.cpp:576: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘std::vector<std::pair<float, float>, std::allocator<std::pair<float, float> > > getRedScore(Config&)’:
+treealgorithm.cpp:673: warning: suggest parentheses around ‘&&’ within ‘||’
+treealgorithm.cpp:701: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘void removeSameLink(Config&)’:
+treealgorithm.cpp:733: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:735: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘void printLinks(Config)’:
+treealgorithm.cpp:766: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:771: warning: comparison between signed and unsigned integer expressions
+In file included from treealgorithm.h:26,
+                 from treealgorithm.cpp:23:
+myalgorithm.h: In member function ‘float vectorDist<T>::euclidDist(Config) [with T = int]’:
+treealgorithm.cpp:74:   instantiated from here
+myalgorithm.h:103: warning: comparison between signed and unsigned integer expressions
+myalgorithm.h:108: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp:74:   instantiated from here
+myalgorithm.h:138: warning: comparison between signed and unsigned integer expressions
+myalgorithm.h:148: warning: comparison between signed and unsigned integer expressions
+treealgorithm.cpp: In function ‘bool check(std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >&, std::vector<int, std::allocator<int> >)’:
+treealgorithm.cpp:310: warning: control reaches end of non-void function
+myalgorithm.h: In member function ‘float vectorDist<T>::euclidDist(Config) [with T = int]’:
+myalgorithm.h:167: warning: control reaches end of non-void function
+g++ -c -Wall -g treenode.cpp -o treenode.o
+In file included from treenode.cpp:18:
+treenode.h: In constructor ‘SubLinkData::SubLinkData()’:
+treenode.h:41: warning: ‘SubLinkData::count’ will be initialized after
+treenode.h:40: warning:   ‘std::vector<int, std::allocator<int> > SubLinkData::fuctag’
+treenode.h:44: warning:   when initialized here
+treenode.cpp: In member function ‘void Tree::getfixed(TreeNode*)’:
+treenode.cpp:50: warning: comparison between signed and unsigned integer expressions
+treenode.cpp:53: warning: comparison between signed and unsigned integer expressions
+treenode.cpp: In member function ‘void Tree::getfloating(TreeNode*)’:
+treenode.cpp:98: warning: comparison between signed and unsigned integer expressions
+treenode.cpp:100: warning: comparison between signed and unsigned integer expressions
+treenode.cpp: In member function ‘void Tree::tosubLink(std::vector<std::map<int, wordpos, std::less<int>, std::allocator<std::pair<const int, wordpos> > >, std::allocator<std::map<int, wordpos, std::less<int>, std::allocator<std::pair<const int, wordpos> > > > >&)’:
+treenode.cpp:142: warning: comparison between signed and unsigned integer expressions
+treenode.cpp:161: warning: comparison between signed and unsigned integer expressions
+treenode.cpp: In function ‘void tosubLink_all(Config&, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, SubLinkData, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, SubLinkData> > >&, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, int> > >&)’:
+treenode.cpp:201: warning: comparison between signed and unsigned integer expressions
+treenode.cpp:204: warning: comparison between signed and unsigned integer expressions
+treenode.cpp: In member function ‘void Tree::getSubLinks(Config&, int, bool, std::string)’:
+treenode.cpp:243: warning: comparison between signed and unsigned integer expressions
+treenode.cpp:255: warning: comparison between signed and unsigned integer expressions
+treenode.cpp: In function ‘int parseArgs(int, char**, Config&)’:
+treenode.cpp:537: warning: suggest explicit braces to avoid ambiguous ‘else’
+treenode.cpp: In function ‘void readFile(FILE*, std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, int> > >&)’:
+treenode.cpp:616: warning: unused variable ‘read’
+treenode.cpp: In function ‘void readAlign(Config&, FILE*)’:
+treenode.cpp:631: warning: comparison between signed and unsigned integer expressions
+treenode.cpp: In function ‘void readParaphrase(Config&, FILE*)’:
+treenode.cpp:652: warning: comparison between signed and unsigned integer expressions
+treenode.cpp: In function ‘std::string mygetline(FILE*)’:
+treenode.cpp:674: warning: unused variable ‘read’
+treenode.cpp: In function ‘int parseArgs(int, char**, Config&)’:
+treenode.cpp:602: warning: control reaches end of non-void function
+g++  main.o myalgorithm.o parsedepfile.o treealgorithm.o treenode.o -o score
+make: warning:  Clock skew detected.  Your build may be incomplete.

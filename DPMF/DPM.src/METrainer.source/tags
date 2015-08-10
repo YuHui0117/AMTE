@@ -1,0 +1,184 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AvgEvalOp	src/Trainer.cpp	/^double CTrainer::AvgEvalOp(const vector<string> &feats, const string &op)$/;"	f	class:CTrainer
+CDepNode	include/DepTree.h	/^class CDepNode$/;"	c
+CDepNode	src/DepTree.h	/^class CDepNode$/;"	c
+CDepPair	include/DataStruct.h	/^	CDepPair(const int &h, const int &m)$/;"	f	class:CDepPair
+CDepPair	include/DataStruct.h	/^class CDepPair$/;"	c
+CDepPair	src/DataStruct.h	/^	CDepPair(const int &h, const int &m)$/;"	f	class:CDepPair
+CDepPair	src/DataStruct.h	/^class CDepPair$/;"	c
+CDepTree	include/DepTree.h	/^class CDepTree$/;"	c
+CDepTree	src/DepTree.cpp	/^CDepTree::CDepTree(const string &str)$/;"	f	class:CDepTree
+CDepTree	src/DepTree.h	/^class CDepTree$/;"	c
+CInst	include/Trainer.h	/^class CInst$/;"	c
+CInst	src/trainer.h	/^class CInst$/;"	c
+CNode	include/Trainer.h	/^	CNode(const int &idVal)$/;"	f	class:CNode
+CNode	include/Trainer.h	/^class CNode$/;"	c
+CNode	src/trainer.h	/^	CNode(const int &idVal)$/;"	f	class:CNode
+CNode	src/trainer.h	/^class CNode$/;"	c
+CSimulator	include/Simulator.h	/^class CSimulator$/;"	c
+CSimulator	src/Simulator.cpp	/^CSimulator::CSimulator()$/;"	f	class:CSimulator
+CSimulator	src/Simulator.h	/^class CSimulator$/;"	c
+CState	include/Trainer.h	/^class CState$/;"	c
+CState	src/trainer.h	/^class CState$/;"	c
+CToken	include/DataStruct.h	/^	CToken(const string &w, const string &p)$/;"	f	class:CToken
+CToken	include/DataStruct.h	/^class CToken$/;"	c
+CToken	src/DataStruct.h	/^	CToken(const string &w, const string &p)$/;"	f	class:CToken
+CToken	src/DataStruct.h	/^class CToken$/;"	c
+CTrainer	include/Trainer.h	/^class CTrainer$/;"	c
+CTrainer	src/Trainer.cpp	/^CTrainer::CTrainer()$/;"	f	class:CTrainer
+CTrainer	src/trainer.h	/^class CTrainer$/;"	c
+CXX	Makefile	/^CXX		 = g++$/;"	m
+CXX	src/Makefile	/^CXX  	    = $(CXX)$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -I..\/include -Wno-deprecated -Wno-unused -O2$/;"	m
+CXXFLAGS	src/Makefile	/^CXXFLAGS    = $(CXXFLAGS)$/;"	m
+Check	src/DepTree.cpp	/^bool CDepTree::Check(const string &str)$/;"	f	class:CDepTree
+Create	src/DepTree.cpp	/^CDepNode *CDepTree::Create(const string &str)$/;"	f	class:CDepTree
+DATASTRUCT_H	include/DataStruct.h	2;"	d
+DATASTRUCT_H	src/DataStruct.h	2;"	d
+DEPTREE_H	include/DepTree.h	2;"	d
+DEPTREE_H	src/DepTree.h	2;"	d
+DIRS	Makefile	/^DIRS	 = src$/;"	m
+DepPairs	src/DepTree.cpp	/^void CDepTree::DepPairs(vector<CDepPair> &deps)$/;"	f	class:CDepTree
+EvalOp	src/Trainer.cpp	/^double CTrainer::EvalOp(const vector<string> &feats, const string &op)$/;"	f	class:CTrainer
+FitInst	src/Trainer.cpp	/^int CTrainer::FitInst(const CInst &inst)$/;"	f	class:CTrainer
+GatherUpdates	src/Trainer.cpp	/^void CTrainer::GatherUpdates(const vector<string> &feats, $/;"	f	class:CTrainer
+GenFeats	src/Trainer.cpp	/^void CTrainer::GenFeats(const CState &from, vector<string> &feats)$/;"	f	class:CTrainer
+GetAvg	src/Trainer.cpp	/^double CTrainer::GetAvg(const string &pred)$/;"	f	class:CTrainer
+GetAvgScores	src/Trainer.cpp	/^void CTrainer::GetAvgScores(const CState &from, $/;"	f	class:CTrainer
+GetDepInfo	src/Simulator.cpp	/^void CSimulator::GetDepInfo(const vector<CDepPair> &deps)$/;"	f	class:CSimulator
+GetDepTo	src/Trainer.cpp	/^void CTrainer::GetDepTo(const vector<CDepPair> &deps, $/;"	f	class:CTrainer
+GetNonAvg	src/Trainer.cpp	/^double CTrainer::GetNonAvg(const string &pred)$/;"	f	class:CTrainer
+GetOps	src/Trainer.cpp	/^void CTrainer::GetOps(const CState &from, vector<string> &ops)$/;"	f	class:CTrainer
+GetScores	src/Trainer.cpp	/^void CTrainer::GetScores(const CState &from,$/;"	f	class:CTrainer
+Graph	src/DepTree.cpp	/^string CDepTree::Graph()$/;"	f	class:CDepTree
+InitState	src/Simulator.cpp	/^void CSimulator::InitState(const vector<CDepPair> &deps)$/;"	f	class:CSimulator
+InitState	src/Trainer.cpp	/^void CTrainer::InitState(CState &state)$/;"	f	class:CTrainer
+LIBDIR	Makefile	/^LIBDIR   = ..\/lib$/;"	m
+LIBDIR	src/Makefile	/^LIBDIR      = $(LIBDIR)$/;"	m
+LIBFLAGS	Makefile	/^LIBFLAGS = -lz$/;"	m
+LIBFLAGS	src/Makefile	/^LIBFLAGS    = $(LIBFLAGS)$/;"	m
+LINKFLAGS	Makefile	/^LINKFLAGS= -Wall -lpthread -O2$/;"	m
+LINKFLAGS	src/Makefile	/^LINKFLAGS   = $(LINKFLAGS)$/;"	m
+MAKEFLAG	Makefile	/^MAKEFLAG = CXX="$(CXX)" CXXFLAGS="$(CXXFLAGS)" LINKFLAGS="$(LINKFLAGS)" LIBFLAGS="$(LIBFLAGS)" LIBDIR="$(LIBDIR)"$/;"	m
+MatchCnt	src/Trainer.cpp	/^int CTrainer::MatchCnt(const vector<CDepPair> &refDeps,$/;"	f	class:CTrainer
+OBJ	src/Makefile	/^OBJ         = Main.o    Trainer.o    Simulator.o    DepTree.o$/;"	m
+OutputAvg	src/Trainer.cpp	/^void CTrainer::OutputAvg(const string &fWeight)$/;"	f	class:CTrainer
+OutputNonAvg	src/Trainer.cpp	/^void CTrainer::OutputNonAvg(const string &fWeight)$/;"	f	class:CTrainer
+POS	include/DataStruct.h	/^	string POS;$/;"	m	class:CToken
+POS	src/DataStruct.h	/^	string POS;$/;"	m	class:CToken
+PROGRAM	src/Makefile	/^PROGRAM     = beam_sr_trainer$/;"	m
+RandSeq	src/Trainer.cpp	/^void CTrainer::RandSeq(vector<int> &seq)$/;"	f	class:CTrainer
+ReadDev	src/Trainer.cpp	/^bool CTrainer::ReadDev(const string &devFile)$/;"	f	class:CTrainer
+ReadInsts	src/Trainer.cpp	/^bool CTrainer::ReadInsts(const string &instFile)$/;"	f	class:CTrainer
+RecurDepPairs	src/DepTree.cpp	/^void CDepTree::RecurDepPairs(CDepNode *root,$/;"	f	class:CDepTree
+RecurGraph	src/DepTree.cpp	/^string CDepTree::RecurGraph(CDepNode *root, const int &lev)$/;"	f	class:CDepTree
+RecurTokens	src/DepTree.cpp	/^void CDepTree::RecurTokens(CDepNode *root, vector<CToken> &toks)$/;"	f	class:CDepTree
+Release	src/DepTree.cpp	/^void CDepTree::Release(CDepNode *ptr)$/;"	f	class:CDepTree
+Root	src/DepTree.cpp	/^CDepNode *CDepTree::Root()$/;"	f	class:CDepTree
+Round	src/Trainer.cpp	/^void CTrainer::Round()$/;"	f	class:CTrainer
+SIMULATOR_H	include/Simulator.h	2;"	d
+SIMULATOR_H	src/Simulator.h	2;"	d
+SRC	src/Makefile	/^SRC         = Main.cpp  Trainer.cpp  Simulator.cpp  DepTree.cpp$/;"	m
+Search	src/Trainer.cpp	/^bool CTrainer::Search(const CInst &inst)$/;"	f	class:CTrainer
+Simulate	src/Simulator.cpp	/^void CSimulator::Simulate(const vector<CDepPair> &deps, $/;"	f	class:CSimulator
+TRAINER_H	include/Trainer.h	2;"	d
+TRAINER_H	src/trainer.h	2;"	d
+TestOnDev	src/Trainer.cpp	/^double CTrainer::TestOnDev()$/;"	f	class:CTrainer
+Tokens	src/DepTree.cpp	/^void CDepTree::Tokens(vector<CToken> &toks)$/;"	f	class:CDepTree
+TraceState	src/Simulator.cpp	/^void CSimulator::TraceState(vector<string> &ops)$/;"	f	class:CSimulator
+Train	src/Trainer.cpp	/^void CTrainer::Train(const string &instFile, $/;"	f	class:CTrainer
+Transition	src/Simulator.cpp	/^void CSimulator::Transition(const string &op, vector<string> &ops)$/;"	f	class:CSimulator
+Transition	src/Trainer.cpp	/^void CTrainer::Transition(const CState &from,$/;"	f	class:CTrainer
+TryDecode	src/Trainer.cpp	/^bool CTrainer::TryDecode(const CInst &dev)$/;"	f	class:CTrainer
+Update	src/Trainer.cpp	/^void CTrainer::Update(const map<string, double> &updates)$/;"	f	class:CTrainer
+curPtr	include/Trainer.h	/^	int curPtr;$/;"	m	class:CState
+curPtr	src/trainer.h	/^	int curPtr;$/;"	m	class:CState
+depPairs	include/Trainer.h	/^	vector<CDepPair> depPairs;$/;"	m	class:CInst
+depPairs	src/trainer.h	/^	vector<CDepPair> depPairs;$/;"	m	class:CInst
+edges	include/Trainer.h	/^	vector<CDepPair> edges;$/;"	m	class:CState
+edges	src/trainer.h	/^	vector<CDepPair> edges;$/;"	m	class:CState
+featsPtr	include/Trainer.h	/^	int featsPtr;$/;"	m	class:CState
+featsPtr	src/trainer.h	/^	int featsPtr;$/;"	m	class:CState
+head	include/DataStruct.h	/^	int head;$/;"	m	class:CDepPair
+head	src/DataStruct.h	/^	int head;$/;"	m	class:CDepPair
+hisOps	include/Trainer.h	/^	vector<string> hisOps;$/;"	m	class:CState
+hisOps	src/trainer.h	/^	vector<string> hisOps;$/;"	m	class:CState
+id	include/Trainer.h	/^	int id;$/;"	m	class:CNode
+id	src/trainer.h	/^	int id;$/;"	m	class:CNode
+leftKids	include/DepTree.h	/^	vector<CDepNode *> leftKids;$/;"	m	class:CDepNode
+leftKids	src/DepTree.h	/^	vector<CDepNode *> leftKids;$/;"	m	class:CDepNode
+leftMost	include/Trainer.h	/^	int leftMost;$/;"	m	class:CNode
+leftMost	src/trainer.h	/^	int leftMost;$/;"	m	class:CNode
+m_fOut	include/Trainer.h	/^	fstream m_fOut;$/;"	m	class:CTrainer
+m_fOut	src/trainer.h	/^	fstream m_fOut;$/;"	m	class:CTrainer
+m_mLastModify	include/Trainer.h	/^	map<string, pair<int, int> > m_mLastModify;$/;"	m	class:CTrainer
+m_mLastModify	src/trainer.h	/^	map<string, pair<int, int> > m_mLastModify;$/;"	m	class:CTrainer
+m_mPredWeight	include/Trainer.h	/^	map<string, double> m_mPredWeight;$/;"	m	class:CTrainer
+m_mPredWeight	src/trainer.h	/^	map<string, double> m_mPredWeight;$/;"	m	class:CTrainer
+m_mSumForAvg	include/Trainer.h	/^	map<string, double> m_mSumForAvg;$/;"	m	class:CTrainer
+m_mSumForAvg	src/trainer.h	/^	map<string, double> m_mSumForAvg;$/;"	m	class:CTrainer
+m_nBeam	include/Trainer.h	/^	int m_nBeam;$/;"	m	class:CTrainer
+m_nBeam	src/trainer.h	/^	int m_nBeam;$/;"	m	class:CTrainer
+m_nCurIndex	include/Trainer.h	/^	int m_nCurIndex;$/;"	m	class:CTrainer
+m_nCurIndex	src/trainer.h	/^	int m_nCurIndex;$/;"	m	class:CTrainer
+m_nCurPtr	include/Simulator.h	/^	int m_nCurPtr;$/;"	m	class:CSimulator
+m_nCurPtr	src/Simulator.h	/^	int m_nCurPtr;$/;"	m	class:CSimulator
+m_nCurRound	include/Trainer.h	/^	int m_nCurRound;$/;"	m	class:CTrainer
+m_nCurRound	src/trainer.h	/^	int m_nCurRound;$/;"	m	class:CTrainer
+m_nLen	include/Simulator.h	/^	int m_nLen;$/;"	m	class:CSimulator
+m_nLen	src/Simulator.h	/^	int m_nLen;$/;"	m	class:CSimulator
+m_nWordCnt	include/Trainer.h	/^	int m_nWordCnt;$/;"	m	class:CTrainer
+m_nWordCnt	src/trainer.h	/^	int m_nWordCnt;$/;"	m	class:CTrainer
+m_pRoot	include/DepTree.h	/^	CDepNode *m_pRoot;$/;"	m	class:CDepTree
+m_pRoot	src/DepTree.h	/^	CDepNode *m_pRoot;$/;"	m	class:CDepTree
+m_vDepRight	include/Simulator.h	/^	vector<int> m_vDepRight;$/;"	m	class:CSimulator
+m_vDepRight	src/Simulator.h	/^	vector<int> m_vDepRight;$/;"	m	class:CSimulator
+m_vDev	include/Trainer.h	/^	vector<CInst> m_vDev;$/;"	m	class:CTrainer
+m_vDev	src/trainer.h	/^	vector<CInst> m_vDev;$/;"	m	class:CTrainer
+m_vInst	include/Trainer.h	/^	vector<CInst> m_vInst;$/;"	m	class:CTrainer
+m_vInst	src/trainer.h	/^	vector<CInst> m_vInst;$/;"	m	class:CTrainer
+m_vStack	include/Simulator.h	/^	vector<int> m_vStack;$/;"	m	class:CSimulator
+m_vStack	src/Simulator.h	/^	vector<int> m_vStack;$/;"	m	class:CSimulator
+m_vState	include/Trainer.h	/^	vector<CState> m_vState;$/;"	m	class:CTrainer
+m_vState	src/trainer.h	/^	vector<CState> m_vState;$/;"	m	class:CTrainer
+m_vToken	include/Trainer.h	/^	vector<CToken> m_vToken;$/;"	m	class:CTrainer
+m_vToken	src/trainer.h	/^	vector<CToken> m_vToken;$/;"	m	class:CTrainer
+m_vvDep	include/Simulator.h	/^	vector<vector<int> > m_vvDep;$/;"	m	class:CSimulator
+m_vvDep	src/Simulator.h	/^	vector<vector<int> > m_vvDep;$/;"	m	class:CSimulator
+main	src/Main.cpp	/^int main(int argc, char *argv[])$/;"	f
+modifier	include/DataStruct.h	/^	int modifier;$/;"	m	class:CDepPair
+modifier	src/DataStruct.h	/^	int modifier;$/;"	m	class:CDepPair
+operator <	include/Trainer.h	/^	bool operator < (const CState &s2) const$/;"	f	class:CState
+operator <	src/trainer.h	/^	bool operator < (const CState &s2) const$/;"	f	class:CState
+operator =	include/Trainer.h	/^	CNode &operator = (const CNode &f)$/;"	f	class:CNode
+operator =	include/Trainer.h	/^	CState &operator = (const CState &f)$/;"	f	class:CState
+operator =	src/trainer.h	/^	CNode &operator = (const CNode &f)$/;"	f	class:CNode
+operator =	src/trainer.h	/^	CState &operator = (const CState &f)$/;"	f	class:CState
+parrent	include/DepTree.h	/^	CDepNode *parrent;$/;"	m	class:CDepNode
+parrent	src/DepTree.h	/^	CDepNode *parrent;$/;"	m	class:CDepNode
+partOK	include/Trainer.h	/^	bool partOK;$/;"	m	class:CState
+partOK	src/trainer.h	/^	bool partOK;$/;"	m	class:CState
+refOps	include/Trainer.h	/^	vector<string> refOps;$/;"	m	class:CInst
+refOps	src/trainer.h	/^	vector<string> refOps;$/;"	m	class:CInst
+rightKids	include/DepTree.h	/^	vector<CDepNode *> rightKids;$/;"	m	class:CDepNode
+rightKids	src/DepTree.h	/^	vector<CDepNode *> rightKids;$/;"	m	class:CDepNode
+rightMost	include/Trainer.h	/^	int rightMost;$/;"	m	class:CNode
+rightMost	src/trainer.h	/^	int rightMost;$/;"	m	class:CNode
+score	include/Trainer.h	/^	double score;$/;"	m	class:CState
+score	src/trainer.h	/^	double score;$/;"	m	class:CState
+stack	include/Trainer.h	/^	vector<CNode> stack;$/;"	m	class:CState
+stack	src/trainer.h	/^	vector<CNode> stack;$/;"	m	class:CState
+tokens	include/Trainer.h	/^	vector<CToken> tokens;$/;"	m	class:CInst
+tokens	src/trainer.h	/^	vector<CToken> tokens;$/;"	m	class:CInst
+val	include/DepTree.h	/^	string val;$/;"	m	class:CDepNode
+val	src/DepTree.h	/^	string val;$/;"	m	class:CDepNode
+word	include/DataStruct.h	/^	string word;$/;"	m	class:CToken
+word	src/DataStruct.h	/^	string word;$/;"	m	class:CToken
+~CDepTree	src/DepTree.cpp	/^CDepTree::~CDepTree()$/;"	f	class:CDepTree
+~CSimulator	src/Simulator.cpp	/^CSimulator::~CSimulator()$/;"	f	class:CSimulator
+~CTrainer	src/Trainer.cpp	/^CTrainer::~CTrainer()$/;"	f	class:CTrainer
